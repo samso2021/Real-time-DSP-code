@@ -1,0 +1,1 @@
+"./src/init.obj" "./src/gFreqDetect.obj" "./src/gFilter.obj" "./src/dtmfFreq.obj" "./src/computeOutput.obj" "./src/checkKey.obj" "./src/asmDTMFDetTest.obj" -l"rts55x.lib" "../c5505.cmd" 

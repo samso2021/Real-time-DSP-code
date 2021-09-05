@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/audioLoopTest.obj" -l"libc.a" "../lib/myC55xUtil.lib" "../c5505.cmd" 

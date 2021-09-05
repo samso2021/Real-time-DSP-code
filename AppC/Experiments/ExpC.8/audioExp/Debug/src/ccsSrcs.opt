@@ -1,0 +1,1 @@
+"../src/AIC3204_init.asm" "../src/audio.c" "../src/audioLoopbackTest.c" "../src/dma.c" "../src/i2s.c" "../src/i2s_register.asm" "../src/vector.asm" 

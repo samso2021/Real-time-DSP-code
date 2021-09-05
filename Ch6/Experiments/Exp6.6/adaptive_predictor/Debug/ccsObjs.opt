@@ -1,0 +1,1 @@
+"./src/adaptive_predictorTest.obj" "./src/adaptivePredictor.obj" -l"rts55x.lib" "../c5505.cmd" 

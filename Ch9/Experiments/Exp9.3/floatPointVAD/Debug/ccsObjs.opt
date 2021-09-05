@@ -1,0 +1,1 @@
+"./src/floatPoint_vad_vad.obj" "./src/floatPoint_vad_ss.obj" "./src/floatPoint_vad_mainTest.obj" "./src/floatPoint_vad_init.obj" "./src/floatPoint_vad_hwindow.obj" "./src/floatPoint_vad_fft.obj" -l"rts55x.lib" "../c5505.cmd" 

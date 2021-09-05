@@ -1,0 +1,1 @@
+"../src/asmDTMFDetTest.c" "../src/checkKey.c" "../src/computeOutput.asm" "../src/dtmfFreq.asm" "../src/gFilter.asm" "../src/gFreqDetect.c" "../src/init.c" 

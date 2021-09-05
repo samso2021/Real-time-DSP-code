@@ -1,0 +1,1 @@
+"./src/w_table.obj" "./src/olap_add.obj" "./src/intrinsic_fft.obj" "./src/freqflt.obj" "./src/fast_convTest.obj" "./src/bit_rev.obj" -l"rts55x.lib" "../c5505.cmd" 

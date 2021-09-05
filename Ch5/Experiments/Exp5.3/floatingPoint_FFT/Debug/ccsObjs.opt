@@ -1,0 +1,1 @@
+"./src/float_fftTest.obj" "./src/fft_float.obj" "./src/fbit_rev.obj" -l"rts55x.lib" "../c5505.cmd" 

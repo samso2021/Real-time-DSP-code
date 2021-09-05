@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/realtime_parametricTest.obj" "./src/parametricEQ.obj" "./src/asmIIR.obj" -l"libc.a" "../lib/myC55xUtil.lib" "../c5505.cmd" 

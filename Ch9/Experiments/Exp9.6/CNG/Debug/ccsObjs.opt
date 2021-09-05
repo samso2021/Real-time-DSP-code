@@ -1,0 +1,1 @@
+"./src/g711.obj" "./src/cng_mainTest.obj" "./src/cng.obj" -l"rts55x.lib" "../c5505.cmd" 

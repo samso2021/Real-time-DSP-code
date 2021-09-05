@@ -1,0 +1,1 @@
+"./src/whitebalanceTest.obj" "./src/whitebalance.obj" -l"rts55x.lib" "../c5505.cmd" 

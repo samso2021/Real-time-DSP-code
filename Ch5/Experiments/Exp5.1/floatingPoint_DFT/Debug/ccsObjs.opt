@@ -1,0 +1,1 @@
+"./src/float_mag128.obj" "./src/float_dft128Test.obj" "./src/float_dft128.obj" -l"rts55x.lib" "../c5505.cmd" 

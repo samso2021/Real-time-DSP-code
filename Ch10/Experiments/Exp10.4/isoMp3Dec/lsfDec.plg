@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lsfDec - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\wtian\LOCALS~1\Temp\RSP58.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "inc" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/lsfDec.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isoMp3Dec\src\common.c"
+"C:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isoMp3Dec\src\decode.c"
+"C:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isoMp3Dec\src\huffman.c"
+"C:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isoMp3Dec\src\ieeefloat.c"
+"C:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isoMp3Dec\src\musicout.c"
+"C:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isoMp3Dec\src\portableio.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\wtian\LOCALS~1\Temp\RSP58.tmp" 
+Creating temporary file "C:\DOCUME~1\wtian\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/lsfDec.pdb" /debug /machine:I386 /out:"Debug/lsfDec.exe" /pdbtype:sept 
+.\Debug\common.obj
+.\Debug\decode.obj
+.\Debug\huffman.obj
+.\Debug\ieeefloat.obj
+.\Debug\musicout.obj
+.\Debug\portableio.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\wtian\LOCALS~1\Temp\RSP59.tmp"
+<h3>Output Window</h3>
+Compiling...
+common.c
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\common.c(165) : warning C4101: 'envdir' : unreferenced local variable
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\common.c(236) : warning C4013: 'exit' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\common.c(273) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\common.c(511) : warning C4013: 'malloc' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\common.c(543) : warning C4013: 'free' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\common.c(620) : warning C4101: 'i' : unreferenced local variable
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\common.c(1212) : warning C4018: '!=' : signed/unsigned mismatch
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\common.c(1413) : warning C4018: '<' : signed/unsigned mismatch
+decode.c
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\common.c(820) : warning C4716: 'refill_buffer' : must return a value
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(417) : warning C4018: '<' : signed/unsigned mismatch
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(426) : warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(431) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(432) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(460) : warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(462) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(463) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(466) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(487) : warning C4101: 'k' : unreferenced local variable
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(505) : warning C4101: 'k' : unreferenced local variable
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(562) : warning C4013: 'exit' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(672) : warning C4013: 'DetermineByteOrder' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(680) : warning C4013: 'SwapBytesInWords' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(1126) : warning C4018: '<' : signed/unsigned mismatch
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(1030) : warning C4101: 'window' : unreferenced local variable
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(1030) : warning C4101: 'sfb' : unreferenced local variable
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(1151) : warning C4101: 'i' : unreferenced local variable
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(1273) : warning C4018: '<' : signed/unsigned mismatch
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(1302) : warning C4013: 'rewindNbits' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(1504) : warning C4101: 'next_sfb_boundary' : unreferenced local variable
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(1503) : warning C4101: 'js_bound' : unreferenced local variable
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(1836) : warning C4101: 'k' : unreferenced local variable
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\decode.c(1949) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+huffman.c
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\huffman.c(197) : warning C4018: '<' : signed/unsigned mismatch
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\huffman.c(321) : warning C4018: '<' : signed/unsigned mismatch
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\huffman.c(327) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\huffman.c(328) : warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\huffman.c(366) : warning C4018: '==' : signed/unsigned mismatch
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\huffman.c(371) : warning C4018: '==' : signed/unsigned mismatch
+ieeefloat.c
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(180) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(181) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(182) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(183) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(313) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(314) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(315) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(316) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(317) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(318) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(319) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(320) : warning C4244: '=' : conversion from 'long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(416) : warning C4244: '=' : conversion from 'unsigned long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(417) : warning C4244: '=' : conversion from 'unsigned long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(418) : warning C4244: '=' : conversion from 'unsigned long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(419) : warning C4244: '=' : conversion from 'unsigned long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(420) : warning C4244: '=' : conversion from 'unsigned long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(421) : warning C4244: '=' : conversion from 'unsigned long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(422) : warning C4244: '=' : conversion from 'unsigned long ' to 'char ', possible loss of data
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\ieeefloat.c(423) : warning C4244: '=' : conversion from 'unsigned long ' to 'char ', possible loss of data
+musicout.c
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\musicout.c(183) : warning C4013: 'exit' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\musicout.c(339) : warning C4013: 'III_get_side_info' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\musicout.c(372) : warning C4013: 'III_get_scale_factors' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\musicout.c(377) : warning C4013: 'III_get_LSF_scale_factors' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\musicout.c(381) : warning C4013: 'III_hufman_decode' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\musicout.c(386) : warning C4013: 'III_stereo' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\musicout.c(395) : warning C4013: 'III_reorder' undefined; assuming extern returning int
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\musicout.c(582) : warning C4013: 'atoi' undefined; assuming extern returning int
+portableio.c
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\portableio.c(229) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\wtian\doc\ch13_2ed\ch13_2ed\experiments\exp13.5.4_isomp3dec\src\portableio.c(240) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+Linking...
+
+
+
+<h3>Results</h3>
+lsfDec.exe - 0 error(s), 68 warning(s)
+</pre>
+</body>
+</html>

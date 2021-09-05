@@ -1,0 +1,1 @@
+"./src/decimationTest.obj" "./src/decimate.obj" -l"rts55x.lib" "../c5505.cmd" 

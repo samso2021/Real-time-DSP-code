@@ -1,0 +1,1 @@
+"./src/floatPoint_nr_vad.obj" "./src/floatPoint_nr_ss.obj" "./src/floatPoint_nr_proc.obj" "./src/floatPoint_nr_mainTest.obj" "./src/floatPoint_nr_init.obj" "./src/floatPoint_nr_hwindow.obj" "./src/floatPoint_nr_fft.obj" -l"rts55x.lib" "../c5505.cmd" 

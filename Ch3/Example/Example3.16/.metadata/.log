@@ -1,0 +1,1388 @@
+!SESSION 2012-12-31 15:36:25.682 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:36:47.459
+!MESSAGE NLS unused message: CCStudioUIPlugin_loggedError in: com.ti.ccstudio.ui.CCStudioUIMessages
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-12-31 15:37:13.836
+!MESSAGE Indexed 'Example3.16' (0 sources, 19 headers) in 1.11 sec: 383 declarations; 426 references; 4 unresolved inclusions; 0 syntax errors; 7 unresolved names (0.86%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2012-12-31 15:46:58.227
+!MESSAGE Error
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.create(FileCharArray.java:44)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:201)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createExternalFileContent(InternalParserUtil.java:188)
+	at org.eclipse.cdt.core.parser.FileContent.createForExternalFileLocation(FileContent.java:90)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:41)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:966)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1251)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1067)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:726)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:469)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:563)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:260)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1253)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1248)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:645)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:143)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:806)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:766)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionSummaries(RTSCHelpProvider.java:69)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:146)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:1)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:84)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.cdt.core 4 0 2012-12-31 15:46:58.237
+!MESSAGE Error
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.create(FileCharArray.java:44)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:201)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createExternalFileContent(InternalParserUtil.java:188)
+	at org.eclipse.cdt.core.parser.FileContent.createForExternalFileLocation(FileContent.java:90)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:41)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:966)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1251)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1067)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:726)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:469)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:563)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:260)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1253)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1248)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:645)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:143)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:806)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:766)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionSummaries(RTSCHelpProvider.java:69)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:146)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:1)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:84)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.cdt.core 4 0 2012-12-31 15:46:58.242
+!MESSAGE Error
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.create(FileCharArray.java:44)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:201)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(InternalParserUtil.java:147)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:83)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:39)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:966)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1251)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1067)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:726)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:469)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:563)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:260)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1253)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1248)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:645)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:143)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:806)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:766)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionSummaries(RTSCHelpProvider.java:69)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:146)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:1)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:84)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.cdt.core 4 0 2012-12-31 15:46:58.247
+!MESSAGE Error
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.create(FileCharArray.java:44)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:201)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(InternalParserUtil.java:147)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:83)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:39)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:976)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1251)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1067)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:726)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:469)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:563)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:260)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1253)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1248)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:645)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:143)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:806)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:766)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionSummaries(RTSCHelpProvider.java:69)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:146)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:1)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:84)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.cdt.core 4 0 2012-12-31 15:46:58.251
+!MESSAGE Error
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.create(FileCharArray.java:44)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:201)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(InternalParserUtil.java:147)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:83)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:39)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:966)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1251)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1067)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:726)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:469)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:563)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:260)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1253)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1248)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:645)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:143)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:806)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:766)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionSummaries(RTSCHelpProvider.java:69)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:146)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:1)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:84)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.cdt.core 4 0 2012-12-31 15:46:58.256
+!MESSAGE Error
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.create(FileCharArray.java:44)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:201)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(InternalParserUtil.java:147)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:83)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:39)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:976)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1251)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1067)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:726)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:469)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:563)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:260)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1253)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1248)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:645)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:143)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:806)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:766)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionSummaries(RTSCHelpProvider.java:69)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:146)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:1)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:84)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.164
+!MESSAGE NLS unused message: DebugUIPlugin.loggedError in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.169
+!MESSAGE NLS unused message: ExecutionStateMonitor.taskbarFlashingJob in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.175
+!MESSAGE NLS unused message: ExecutionStateMonitor.threadSuspend.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.179
+!MESSAGE NLS unused message: ExecutionStateMonitor.threadSuspend.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.184
+!MESSAGE NLS unused message: DebuggerPreferencePage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.188
+!MESSAGE NLS unused message: Disassembly.style.dialog.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.193
+!MESSAGE NLS unused message: Disassembly.style.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.196
+!MESSAGE NLS unused message: LoadProgramHandler.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.198
+!MESSAGE NLS unused message: LoadSymbolsHandler.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.200
+!MESSAGE NLS unused message: AddSymbolsHandler.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.202
+!MESSAGE NLS unused message: LoadProgramHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.204
+!MESSAGE NLS unused message: LoadSymbolsHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.206
+!MESSAGE NLS unused message: ReloadProgramHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.209
+!MESSAGE NLS unused message: ReloadSymbolsHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.212
+!MESSAGE NLS unused message: AddSymbolsHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.214
+!MESSAGE NLS unused message: RemoveAllSymbolsHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.216
+!MESSAGE NLS unused message: ResetDebugScopeActionDelegate.confirm.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.218
+!MESSAGE NLS unused message: ResetDebugScopeActionDelegate.confirm.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.220
+!MESSAGE NLS unused message: AdvancedRunDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.222
+!MESSAGE NLS unused message: AdvancedRunDropDownAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.224
+!MESSAGE NLS unused message: AdvancedResetDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.227
+!MESSAGE NLS unused message: AdvancedResetDropDownAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.229
+!MESSAGE NLS unused message: AnimateAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.231
+!MESSAGE NLS unused message: AnimateAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.233
+!MESSAGE NLS unused message: FreeRunAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.235
+!MESSAGE NLS unused message: FreeRunAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.237
+!MESSAGE NLS unused message: LowPowerRunAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.239
+!MESSAGE NLS unused message: LowPowerRunAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.241
+!MESSAGE NLS unused message: ClockProfilingEnableAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.243
+!MESSAGE NLS unused message: ClockProfilingEnableAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.245
+!MESSAGE NLS unused message: ClockProfilingViewAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.247
+!MESSAGE NLS unused message: ClockProfilingViewAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.254
+!MESSAGE NLS unused message: ClockProfilingResetAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.256
+!MESSAGE NLS unused message: ClockProfilingResetAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.258
+!MESSAGE NLS unused message: ClockProfilingSetupAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.260
+!MESSAGE NLS unused message: ClockProfilingSetupAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.262
+!MESSAGE NLS unused message: ClockProfilingSetup.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.264
+!MESSAGE NLS unused message: ClockProfiling.clockStatusIndicator.prefix in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.266
+!MESSAGE NLS unused message: ClockProfiling.clockStatusIndicator.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.268
+!MESSAGE NLS unused message: ConnectTargetActionTooltip_Connect in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.270
+!MESSAGE NLS unused message: ConnectTargetActionTooltip_Disconnect in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.272
+!MESSAGE NLS unused message: ContinuousRefreshAction_Error in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.274
+!MESSAGE NLS unused message: ProjectDebugLauncher.activeproj.configNameFormat.mb in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.277
+!MESSAGE NLS unused message: ProjectDebugLauncher.activeproj.configNameFormat.sb in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.279
+!MESSAGE NLS unused message: CCEDebugLauncher.launch.debugger in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.281
+!MESSAGE NLS unused message: CCEDebugLauncher.launch.project in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.283
+!MESSAGE NLS unused message: CCEDebugLauncher.error.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.286
+!MESSAGE NLS unused message: CCEDebugLauncher.error.unknownEditor in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.288
+!MESSAGE NLS unused message: CCEDebugLauncher.error.badSelection in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.290
+!MESSAGE NLS unused message: CCEDebugLauncher.error.ambiguousProgram in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.292
+!MESSAGE NLS unused message: CCEDebugLauncher.error.noProgram in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.294
+!MESSAGE NLS unused message: CCEDebugLauncher.error.launchRunning in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.296
+!MESSAGE NLS unused message: CCEDebugLauncher.error.launchRunning2 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.298
+!MESSAGE NLS unused message: CCEDebugLauncher.error.fileDoesntExist in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.300
+!MESSAGE NLS unused message: CCEDebugLauncher.error.fileNotAccessible in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.310
+!MESSAGE NLS unused message: CCEDebugLauncher.error.noGlobalTargetConfiguration in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.313
+!MESSAGE NLS unused message: CCEDebugLauncher.error.noTargetCPU in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.315
+!MESSAGE NLS unused message: CCEDebugLauncher.error.noTargetConfiguration in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.317
+!MESSAGE NLS unused message: CCEDebugLauncher.error.cannotFindTargetConfiguration in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.325
+!MESSAGE NLS unused message: CCEDebugLauncher.error.cannotFindTargetConfiguration.doNotCreate in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.327
+!MESSAGE NLS unused message: CCEDebugLauncher.error.PROJECT_IS_NOT_DEVICE_SPECIFIC in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.329
+!MESSAGE NLS unused message: CCEDebugLauncher.error.PROJECT_ISA_DOES_NOT_MATCH_ANY_CPU in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.332
+!MESSAGE NLS unused message: CCEDebugLauncher.error.PROJECT_ISA_MATCHES_MORE_THAN_ONE_CPU in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.334
+!MESSAGE NLS unused message: CCEDebugLauncher.error.SOURCE_LOOKUP_CANNOT_BE_SET in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.336
+!MESSAGE NLS unused message: CCEDebugLauncher.error.PROJECT_PROPERTY_CANNOT_BE_SET in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.338
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_SESSION_ALREADY_IN_PROGRESS in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.340
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_TARGET_CONNECTION_FAILED in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.342
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_INITIALIZATION_ERROR in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.344
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_TARGET_LOAD_FAILED in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.346
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_MISSING_LICENCE in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.348
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_INITIALIZATION_ERROR_NO_INFO in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.351
+!MESSAGE NLS unused message: CCEDebugLauncher.error.dirtyFile in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.353
+!MESSAGE NLS unused message: BaseCCEDebugOptionsTab.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.355
+!MESSAGE NLS unused message: CCEDebuggerTab.name in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.357
+!MESSAGE NLS unused message: CCEDebuggerTab.groupCPUResolveOptions in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.360
+!MESSAGE NLS unused message: CCEDebuggerTab.firstCompatible in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.362
+!MESSAGE NLS unused message: CCEDebuggerTab.promptCPU in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.364
+!MESSAGE NLS unused message: CCEDebuggerTab.exact in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.366
+!MESSAGE NLS unused message: CCEDebuggerTab.groupLoadingOptions in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.368
+!MESSAGE NLS unused message: CCEDebuggerTab.loadProgram in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.370
+!MESSAGE NLS unused message: CCEDebuggerTab.loadSymbolsOnly in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.372
+!MESSAGE NLS unused message: CCEDebuggerTab.cpuName in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.379
+!MESSAGE NLS unused message: CCEDebuggerTab.error.cpuNameEmpty in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.382
+!MESSAGE NLS unused message: CCETargetPropertiesTab.name in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.384
+!MESSAGE NLS unused message: CCEMainTab.error.programDoesNotExist in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.386
+!MESSAGE NLS unused message: VariableCellModifier.error.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.389
+!MESSAGE NLS unused message: VariableCellModifier.error.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.391
+!MESSAGE NLS unused message: HeldInResetStatus.bubbleHelp.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.393
+!MESSAGE NLS unused message: HeldInResetStatus.bubbleHelp.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.395
+!MESSAGE NLS unused message: TaskRunStateStatus.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.397
+!MESSAGE NLS unused message: NoPowerStatus.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.400
+!MESSAGE NLS unused message: NoPowerStatus.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.402
+!MESSAGE NLS unused message: LowPowerRunStatus.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.404
+!MESSAGE NLS unused message: LowPowerRunStatus.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.407
+!MESSAGE NLS unused message: HeldInResetStatus.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.409
+!MESSAGE NLS unused message: HeldInResetStatus.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.411
+!MESSAGE NLS unused message: LicenseDialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.413
+!MESSAGE NLS unused message: LicenseDialog.activateLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.416
+!MESSAGE NLS unused message: LicenseDialog.activateEvaluationLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.418
+!MESSAGE NLS unused message: LicenseDialog.generateLicenseStep.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.421
+!MESSAGE NLS unused message: LicenseDialog.generateLicenseStep.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.423
+!MESSAGE NLS unused message: LicenseDialog.registerButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.425
+!MESSAGE NLS unused message: LicenseDialog.registerButton.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.427
+!MESSAGE NLS unused message: LicenseDialog.useFreeLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.429
+!MESSAGE NLS unused message: LicenseDialog.useFreeLicenseButton.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.431
+!MESSAGE NLS unused message: LicenseDialog.extendEvaluationButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.434
+!MESSAGE NLS unused message: LicenseDialog.extendEvaluationButton.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.436
+!MESSAGE NLS unused message: LicenseDialog.installLicenseStep.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.438
+!MESSAGE NLS unused message: LicenseDialog.locationButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.440
+!MESSAGE NLS unused message: LicenseDialog.licenseServerButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.442
+!MESSAGE NLS unused message: LicenseDialog.licenseServerAddressControl.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.444
+!MESSAGE NLS unused message: LicenseDialog.licenseServerPortControl.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.446
+!MESSAGE NLS unused message: LicenseDialog.activateEvaluationLicense.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.448
+!MESSAGE NLS unused message: LicenseDialog.activateFreeicense.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.450
+!MESSAGE NLS unused message: LicenseDialog.activateTIicense.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.452
+!MESSAGE NLS unused message: LicenseDialog.openBrowserErrorBox.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.455
+!MESSAGE NLS unused message: LicenseDialog.openBrowserErrorBox.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.457
+!MESSAGE NLS unused message: LicenseDialog.activateEvaluationLicenseInfoBox.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.459
+!MESSAGE NLS unused message: LicenseDialog.error.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.461
+!MESSAGE NLS unused message: LicenseDialog.activateEvaluationLicenseInfoBox.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.463
+!MESSAGE NLS unused message: LicenseDialog.generateLicenseInfoBox.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.466
+!MESSAGE NLS unused message: LicenseDialog.generateLicenseInfoBox.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.468
+!MESSAGE NLS unused message: LicenseDialog.pathDoesNotExist.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.470
+!MESSAGE NLS unused message: LicenseDialog.pathNotAFile.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.473
+!MESSAGE NLS unused message: LicenseDialog.cannotRead.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.475
+!MESSAGE NLS unused message: LicenseDialog.invalidPortNumber.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.477
+!MESSAGE NLS unused message: LicenseDialog.licenseServerSetupFormat in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.479
+!MESSAGE NLS unused message: ContextMenu.lockView.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.481
+!MESSAGE NLS unused message: ContextMenu.configure.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.484
+!MESSAGE NLS unused message: ContextMenu.copyToMemory.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.486
+!MESSAGE NLS unused message: ContextMenu.loadMemory.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.488
+!MESSAGE NLS unused message: ContextMenu.saveMemory.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.490
+!MESSAGE NLS unused message: ContextMenu.fillMemory.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.492
+!MESSAGE NLS unused message: ContextMenu.showCacheColor.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.494
+!MESSAGE NLS unused message: ContextMenu.showCacheLineMarker.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.497
+!MESSAGE NLS unused message: ContextMenu.referenceBuffer.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.499
+!MESSAGE NLS unused message: ContextMenu.configureReferenceBuffer.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.501
+!MESSAGE NLS unused message: ContextMenu.enableReferenceBuffer.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.504
+!MESSAGE NLS unused message: ContextMenu.captureReferenceBuffer.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.506
+!MESSAGE NLS unused message: ContextMenu.useIEEEFloat.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.508
+!MESSAGE NLS unused message: ContextMenu.currentSelction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.510
+!MESSAGE NLS unused message: ContextMenu.visibleCells.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.512
+!MESSAGE NLS unused message: ContextMenu.continuousRefresh.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.514
+!MESSAGE NLS unused message: Contextmenu.showVirtualMemory.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.517
+!MESSAGE NLS unused message: Contextmenu.showPhysicalMemoryView.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.519
+!MESSAGE NLS unused message: Contextmenu.ContinuousRefresh.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.521
+!MESSAGE NLS unused message: Contextmenu.rowSize in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.523
+!MESSAGE NLS unused message: Contextmenu.rowSizeAuto in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.525
+!MESSAGE NLS unused message: Contextmenu.rowSizeCustom in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.528
+!MESSAGE NLS unused message: MemorySaveDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.530
+!MESSAGE NLS unused message: MemoryFillDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.532
+!MESSAGE NLS unused message: MemoryLoadDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.534
+!MESSAGE NLS unused message: MemoryAnalysisDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.536
+!MESSAGE NLS unused message: MemoryAnalysisEnableDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.539
+!MESSAGE NLS unused message: MemoryAnalysisDisableDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.542
+!MESSAGE NLS unused message: ContinuousRefreshAction.enable.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.544
+!MESSAGE NLS unused message: ContinuousRefreshAction.enable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.547
+!MESSAGE NLS unused message: ContinuousRefreshAction.disable.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.549
+!MESSAGE NLS unused message: ContinuousRefreshAction.disable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.551
+!MESSAGE NLS unused message: ContinuousRefreshAction.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.553
+!MESSAGE NLS unused message: RefreshMemoryActionDelegate.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.555
+!MESSAGE NLS unused message: CacheBoundaryMarker.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.558
+!MESSAGE NLS unused message: CacheBoundaryMarker.action.enable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.565
+!MESSAGE NLS unused message: CacheBoundaryMarker.action.disable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.568
+!MESSAGE NLS unused message: Cache.Highlighting.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.570
+!MESSAGE NLS unused message: Cache.Highlighting.action.enable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.572
+!MESSAGE NLS unused message: Cache.Highlighting.action.disable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.574
+!MESSAGE NLS unused message: MemoryAnalysis.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.576
+!MESSAGE NLS unused message: MemoryAnalysis.action.enable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.579
+!MESSAGE NLS unused message: MemoryAnalysis.action.disable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.581
+!MESSAGE NLS unused message: LockView.action.lock.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.583
+!MESSAGE NLS unused message: LockView.action.unlock.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.586
+!MESSAGE NLS unused message: LockView.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.588
+!MESSAGE NLS unused message: LoadMemory.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.590
+!MESSAGE NLS unused message: SaveMemory.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.592
+!MESSAGE NLS unused message: FillMemory.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.595
+!MESSAGE NLS unused message: VirtualPhysicalMemory.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.597
+!MESSAGE NLS unused message: VirtualPhysicalMemory.action.virtualMemory.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.599
+!MESSAGE NLS unused message: VirtualPhysicalMemory.action.physicalMemory.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.601
+!MESSAGE NLS unused message: MemoryAnalysisDropDown.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.603
+!MESSAGE NLS unused message: MemorySaveDropDown.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.605
+!MESSAGE NLS unused message: ColorsAndFontsAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.608
+!MESSAGE NLS unused message: CopyToMemory.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.610
+!MESSAGE NLS unused message: CopyToMemory.dialog.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.612
+!MESSAGE NLS unused message: CopyToMemory.dialog.Address in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.614
+!MESSAGE NLS unused message: CopyToMemory.dialog.errorMsg in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.616
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.618
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.621
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.StartAddress in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.623
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.EndAddress in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.625
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.Page in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.628
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.CaptureDate in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.631
+!MESSAGE NLS unused message: PreferenceDialog.AppearanceLink.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.633
+!MESSAGE NLS unused message: PreferenceDialog.Description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.635
+!MESSAGE NLS unused message: PreferenceDialog.GeneralOptions.group.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.637
+!MESSAGE NLS unused message: PreferenceDialog.CacheHighlighting.group.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.639
+!MESSAGE NLS unused message: PreferenceDialog.CacheBoundaryMarker.group.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.642
+!MESSAGE NLS unused message: PreferenceDialog.MemoryAnalyzer.group.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.649
+!MESSAGE NLS unused message: PreferenceDialog.SymbolDisplay.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.651
+!MESSAGE NLS unused message: PreferenceDialog.MemoryAttributesDisplay.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.654
+!MESSAGE NLS unused message: PreferenceDialog.TrackExpression.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.656
+!MESSAGE NLS unused message: PreferenceDialog.QValue.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.658
+!MESSAGE NLS unused message: PreferenceDialog.BackgroundColorMode.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.661
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarkerMode.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.664
+!MESSAGE NLS unused message: PreferenceDialog.MemEditBufferSave.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.666
+!MESSAGE NLS unused message: PreferenceDialog.MemEditBufferSaveType1.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.668
+!MESSAGE NLS unused message: PreferenceDialog.MemEditBufferSaveType2.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.670
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L1.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.672
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L1P.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.675
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L1D.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.677
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L2.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.680
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L2Shared.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.682
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L3.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.685
+!MESSAGE NLS unused message: PreferenceDialog.showCacheHightlightByDefault.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.687
+!MESSAGE NLS unused message: PreferenceDialog.showCacheBoundaryMarkerByDefault.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.689
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzerType1.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.692
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzerType2.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.694
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzerType3.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.696
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzer.enabled.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.698
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzer.disabled.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.700
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzerType4.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.702
+!MESSAGE NLS unused message: PreferenceDialog.showMemoryAnalysisByDefault.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.705
+!MESSAGE NLS unused message: Configure.Dialog.Title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.707
+!MESSAGE NLS unused message: Configure.Dialog.Message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.709
+!MESSAGE NLS unused message: MemoryFill.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.711
+!MESSAGE NLS unused message: MemoryFill.job.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.714
+!MESSAGE NLS unused message: MemoryLoad.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.721
+!MESSAGE NLS unused message: MemoryLoad.memoryDumperFileSelectionPage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.723
+!MESSAGE NLS unused message: MemoryLoad.memoryDumperFileSelectionPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.725
+!MESSAGE NLS unused message: MemoryLoad.memoryBlockInfoPage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.727
+!MESSAGE NLS unused message: MemoryLoad.memoryBlockInfoPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.729
+!MESSAGE NLS unused message: MemoryLoad.job.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.731
+!MESSAGE NLS unused message: MemorySave.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.733
+!MESSAGE NLS unused message: MemorySave.memoryDumperFileSelectionPage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.735
+!MESSAGE NLS unused message: MemorySave.memoryDumperFileSelectionPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.737
+!MESSAGE NLS unused message: MemorySave.memoryBlockInfoPage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.739
+!MESSAGE NLS unused message: MemorySave.memoryBlockInfoPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.745
+!MESSAGE NLS unused message: MemorySave.job.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.747
+!MESSAGE NLS unused message: MemoryDumper.dialog.StartAddress in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.749
+!MESSAGE NLS unused message: MemoryDumper.dialog.MemoryPage in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.751
+!MESSAGE NLS unused message: MemoryDumper.dialog.Length in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.753
+!MESSAGE NLS unused message: MemoryDumper.dialog.TypeSize in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.756
+!MESSAGE NLS unused message: MemoryDumper.dialog.FillData in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.757
+!MESSAGE NLS unused message: MemoryDumper.dialog.Swap in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.759
+!MESSAGE NLS unused message: MemoryDumper.dialog.Format in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.761
+!MESSAGE NLS unused message: MemoryDumper.dialog.Target in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.763
+!MESSAGE NLS unused message: PinToContextAction.pin.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.765
+!MESSAGE NLS unused message: PinToContextAction.unpin.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.767
+!MESSAGE NLS unused message: PinToContextAction.defaultDeviceName in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.769
+!MESSAGE NLS unused message: AddressOutOfRangeError.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.771
+!MESSAGE NLS unused message: TargetReadDeniedWhileRunning.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.773
+!MESSAGE NLS unused message: TargetReadNotSupported.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.775
+!MESSAGE NLS unused message: TargetWriteDeniedWhileRunning.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.777
+!MESSAGE NLS unused message: TargetWriteNotSupported.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.779
+!MESSAGE NLS unused message: ReferenceBufferNotAllowed.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.781
+!MESSAGE NLS unused message: DebugSessionNotSupported.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.783
+!MESSAGE NLS unused message: view.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.785
+!MESSAGE NLS unused message: view.instance.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.787
+!MESSAGE NLS unused message: LicenseDialog.info.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.794
+!MESSAGE NLS unused message: LicenseDialog.externalMainPage.text1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.796
+!MESSAGE NLS unused message: LicenseDialog.externalMainPage.specifyLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.798
+!MESSAGE NLS unused message: LicenseDialog.externalMainPage.availableOptionButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.801
+!MESSAGE NLS unused message: LicenseDialog.externalMainPage.skipButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.803
+!MESSAGE NLS unused message: LicenseDialog.optionsPage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.805
+!MESSAGE NLS unused message: LicenseDialog.optionsPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.807
+!MESSAGE NLS unused message: LicenseDialog.optionsPage.text1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.809
+!MESSAGE NLS unused message: LicenseDialog.registerLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.811
+!MESSAGE NLS unused message: LicenseDialog.evaluateLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.813
+!MESSAGE NLS unused message: LicenseDialog.registerPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.815
+!MESSAGE NLS unused message: LicenseDialog.registerPage.activationCodeField.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.816
+!MESSAGE NLS unused message: LicenseDialog.registerPage.activationCodeField.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.818
+!MESSAGE NLS unused message: LicenseDialog.registerPage.hostIdField.label0 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.820
+!MESSAGE NLS unused message: LicenseDialog.registerPage.hostIdField.label0a in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.822
+!MESSAGE NLS unused message: LicenseDialog.registerPage.hostIdField.label1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.828
+!MESSAGE NLS unused message: LicenseDialog.registerPage.hostIdField.label1a in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.831
+!MESSAGE NLS unused message: LicenseDialog.registerPage.otherHostIdField.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.837
+!MESSAGE NLS unused message: LicenseDialog.registerPage.error1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.840
+!MESSAGE NLS unused message: LicenseDialog.registerPage.registerButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.842
+!MESSAGE NLS unused message: LicenseDialog.registerPage.registerButton.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.844
+!MESSAGE NLS unused message: LicenseDialog.registerPage.activationCodeFieldErrorBox.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.846
+!MESSAGE NLS unused message: LicenseDialog.installLicensePage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.848
+!MESSAGE NLS unused message: LicenseDialog.installLicensePage.text1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.855
+!MESSAGE NLS unused message: LicenseDialog.internalMainPage.text1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.857
+!MESSAGE NLS unused message: LicenseDialog.internalMainPage.generateLicense.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.859
+!MESSAGE NLS unused message: LicenseDialog.internalMainPage.generateLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.861
+!MESSAGE NLS unused message: LicenseDialog.internalMainPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.864
+!MESSAGE NLS unused message: LicenseInfoDialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.866
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.868
+!MESSAGE NLS unused message: LicenseInfoDialog.upgradeTab.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.870
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.872
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.status.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.874
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.type.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.877
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.msg.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.879
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.msg.label2 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.881
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.showButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.883
+!MESSAGE NLS unused message: LicenseInfoDialog.upgradeTab.setup.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.885
+!MESSAGE NLS unused message: LicenseInfoDialog.upgradeTab.upgrade.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.887
+!MESSAGE NLS unused message: LicenseInfoDialog.upgradeTab.setupButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.889
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.891
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.addButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.893
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.removeButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.895
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.file.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.897
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.server.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.899
+!MESSAGE NLS unused message: LicenseInfoAddLicenseDialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.901
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.903
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.tableColumnHeader in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2012-12-31 15:48:27.905
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.withinTI in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.cdt.core 4 0 2012-12-31 15:54:12.687
+!MESSAGE Error
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.create(FileCharArray.java:44)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:201)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(InternalParserUtil.java:147)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:83)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:39)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:966)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1251)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1067)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:726)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:469)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:563)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:260)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1253)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1248)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:645)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:143)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:806)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionSummaries(RTSCHelpProvider.java:69)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:146)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:1)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:84)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.cdt.core 4 0 2012-12-31 15:54:12.694
+!MESSAGE Error
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.create(FileCharArray.java:44)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:201)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(InternalParserUtil.java:147)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:83)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:39)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:976)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1251)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1067)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:726)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:469)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:563)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:260)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1253)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1248)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:645)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:143)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:806)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionSummaries(RTSCHelpProvider.java:69)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:146)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:1)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:84)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.cdt.core 4 0 2012-12-31 15:54:12.700
+!MESSAGE Error
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.create(FileCharArray.java:44)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:201)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(InternalParserUtil.java:147)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:83)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:39)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:966)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1251)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1067)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:726)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:469)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:563)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:260)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1253)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1248)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:645)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:143)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:806)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionSummaries(RTSCHelpProvider.java:69)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:146)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:1)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:84)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.cdt.core 4 0 2012-12-31 15:54:12.707
+!MESSAGE Error
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.create(FileCharArray.java:44)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:201)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(InternalParserUtil.java:147)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:83)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:39)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:976)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1251)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1067)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:726)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:469)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:563)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:260)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:345)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1283)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1253)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1248)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:645)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:143)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:806)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionSummaries(RTSCHelpProvider.java:69)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:146)
+	at org.eclipse.rtsc.xdctools.ui.contentassist.RTSCHelpProvider.getFunctionInfo(RTSCHelpProvider.java:1)
+	at org.eclipse.cdt.internal.ui.text.CHelpSettings.getFunctionInfo(CHelpSettings.java:121)
+	at org.eclipse.cdt.internal.ui.CHelpProviderManager.getFunctionInfo(CHelpProviderManager.java:163)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CDocHover.getHoverInfo(CDocHover.java:84)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SESSION 2013-02-17 11:17:36.888 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-17 11:17:57.127
+!MESSAGE NLS unused message: CCStudioUIPlugin_loggedError in: com.ti.ccstudio.ui.CCStudioUIMessages
+!SESSION 2013-02-26 14:04:31.785 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-26 14:04:48.931
+!MESSAGE NLS unused message: CCStudioUIPlugin_loggedError in: com.ti.ccstudio.ui.CCStudioUIMessages
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-02-26 14:04:59.837
+!MESSAGE Indexed 'Example3.16' (2 sources, 24 headers) in 1.28 sec: 673 declarations; 696 references; 4 unresolved inclusions; 0 syntax errors; 9 unresolved names (0.65%)

@@ -1,0 +1,68 @@
+/*
+ * unknown_system.h
+ *
+ *  Created on: June 6, 2012
+ *      Author: BLEE
+ *
+ *  Description: This is unknown system's FIR coefficients file
+ *
+ *               The input is a 1kHz sine wave sampling rate 8kHz with noise
+ *               The output is the sine wave
+ *               The error is the noise
+ *
+ *  For the book "Real Time Digital Signal Processing:
+ *                Fundamentals, Implementation and Application, 3rd Ed"
+ *                By Sen M. Kuo, Bob H. Lee, and Wenshun Tian
+ *                Publisher: John Wiley and Sons, Ltd
+ */
+
+Int16 plant[N1] = {       
+   -6,
+   28,
+   46,
+   27,
+  -35,
+ -100,
+  -93,
+   26,
+  191,
+  240,
+   52,
+ -291,
+ -497,
+ -278,
+  337,
+  888,
+  773,
+ -210,
+-1486,
+-1895,
+ -442,
+ 2870,
+ 6793,
+ 9445,
+ 9445,
+ 6793,
+ 2870,
+ -442,
+-1895,
+-1486,
+ -210,
+  773,
+  888,
+  337,
+ -278,
+ -497,
+ -291,
+   52,
+  240,
+  191,
+   26,
+  -93,
+ -100,
+  -35,
+   27,
+   46,
+   28,
+   -6
+};

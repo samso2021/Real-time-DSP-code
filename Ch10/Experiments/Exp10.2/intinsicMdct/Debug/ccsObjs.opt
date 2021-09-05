@@ -1,0 +1,1 @@
+"./src/intrinsic_mdctTest.obj" "./src/intrinsic_mdctInit.obj" "./src/intrinsic_mdct.obj" -l"rts55x.lib" "../c5505.cmd" 

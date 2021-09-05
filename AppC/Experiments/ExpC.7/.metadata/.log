@@ -1,0 +1,948 @@
+!SESSION 2013-02-28 15:31:27.822 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+This is a continuation of log file C:\Users\DSP_3edFinal\software\AppC\Experiments\ExpC.7\.metadata\.bak_0.log
+Created Time: 2013-02-28 15:37:32.953
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 15:37:32.954
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 15:37:32.958
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.tableColumnHeader in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 15:37:32.959
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.withinTI in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+!SESSION 2013-02-28 16:06:46.562 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:07:09.090
+!MESSAGE NLS unused message: CCStudioUIPlugin_loggedError in: com.ti.ccstudio.ui.CCStudioUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.219
+!MESSAGE NLS unused message: DebugUIPlugin.loggedError in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.223
+!MESSAGE NLS unused message: ExecutionStateMonitor.taskbarFlashingJob in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.225
+!MESSAGE NLS unused message: ExecutionStateMonitor.threadSuspend.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.228
+!MESSAGE NLS unused message: ExecutionStateMonitor.threadSuspend.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.231
+!MESSAGE NLS unused message: DebuggerPreferencePage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.233
+!MESSAGE NLS unused message: Disassembly.style.dialog.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.235
+!MESSAGE NLS unused message: Disassembly.style.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.237
+!MESSAGE NLS unused message: LoadProgramHandler.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.238
+!MESSAGE NLS unused message: LoadSymbolsHandler.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.240
+!MESSAGE NLS unused message: AddSymbolsHandler.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.242
+!MESSAGE NLS unused message: LoadProgramHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.244
+!MESSAGE NLS unused message: LoadSymbolsHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.246
+!MESSAGE NLS unused message: ReloadProgramHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.249
+!MESSAGE NLS unused message: ReloadSymbolsHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.251
+!MESSAGE NLS unused message: AddSymbolsHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.253
+!MESSAGE NLS unused message: RemoveAllSymbolsHandler.error.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.255
+!MESSAGE NLS unused message: ResetDebugScopeActionDelegate.confirm.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.257
+!MESSAGE NLS unused message: ResetDebugScopeActionDelegate.confirm.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.259
+!MESSAGE NLS unused message: AdvancedRunDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.261
+!MESSAGE NLS unused message: AdvancedRunDropDownAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.263
+!MESSAGE NLS unused message: AdvancedResetDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.265
+!MESSAGE NLS unused message: AdvancedResetDropDownAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.267
+!MESSAGE NLS unused message: AnimateAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.269
+!MESSAGE NLS unused message: AnimateAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.271
+!MESSAGE NLS unused message: FreeRunAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.273
+!MESSAGE NLS unused message: FreeRunAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.275
+!MESSAGE NLS unused message: LowPowerRunAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.277
+!MESSAGE NLS unused message: LowPowerRunAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.278
+!MESSAGE NLS unused message: ClockProfilingEnableAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.281
+!MESSAGE NLS unused message: ClockProfilingEnableAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.283
+!MESSAGE NLS unused message: ClockProfilingViewAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.285
+!MESSAGE NLS unused message: ClockProfilingViewAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.286
+!MESSAGE NLS unused message: ClockProfilingResetAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.288
+!MESSAGE NLS unused message: ClockProfilingResetAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.290
+!MESSAGE NLS unused message: ClockProfilingSetupAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.292
+!MESSAGE NLS unused message: ClockProfilingSetupAction.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.294
+!MESSAGE NLS unused message: ClockProfilingSetup.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.296
+!MESSAGE NLS unused message: ClockProfiling.clockStatusIndicator.prefix in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.297
+!MESSAGE NLS unused message: ClockProfiling.clockStatusIndicator.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.299
+!MESSAGE NLS unused message: ConnectTargetActionTooltip_Connect in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.301
+!MESSAGE NLS unused message: ConnectTargetActionTooltip_Disconnect in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.304
+!MESSAGE NLS unused message: ContinuousRefreshAction_Error in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.306
+!MESSAGE NLS unused message: ProjectDebugLauncher.activeproj.configNameFormat.mb in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.308
+!MESSAGE NLS unused message: ProjectDebugLauncher.activeproj.configNameFormat.sb in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.316
+!MESSAGE NLS unused message: CCEDebugLauncher.launch.debugger in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.318
+!MESSAGE NLS unused message: CCEDebugLauncher.launch.project in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.320
+!MESSAGE NLS unused message: CCEDebugLauncher.error.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.321
+!MESSAGE NLS unused message: CCEDebugLauncher.error.unknownEditor in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.323
+!MESSAGE NLS unused message: CCEDebugLauncher.error.badSelection in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.325
+!MESSAGE NLS unused message: CCEDebugLauncher.error.ambiguousProgram in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.327
+!MESSAGE NLS unused message: CCEDebugLauncher.error.noProgram in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.343
+!MESSAGE NLS unused message: CCEDebugLauncher.error.launchRunning in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.346
+!MESSAGE NLS unused message: CCEDebugLauncher.error.launchRunning2 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.349
+!MESSAGE NLS unused message: CCEDebugLauncher.error.fileDoesntExist in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.351
+!MESSAGE NLS unused message: CCEDebugLauncher.error.fileNotAccessible in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.352
+!MESSAGE NLS unused message: CCEDebugLauncher.error.noGlobalTargetConfiguration in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.354
+!MESSAGE NLS unused message: CCEDebugLauncher.error.noTargetCPU in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.356
+!MESSAGE NLS unused message: CCEDebugLauncher.error.noTargetConfiguration in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.358
+!MESSAGE NLS unused message: CCEDebugLauncher.error.cannotFindTargetConfiguration in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.360
+!MESSAGE NLS unused message: CCEDebugLauncher.error.cannotFindTargetConfiguration.doNotCreate in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.362
+!MESSAGE NLS unused message: CCEDebugLauncher.error.PROJECT_IS_NOT_DEVICE_SPECIFIC in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.364
+!MESSAGE NLS unused message: CCEDebugLauncher.error.PROJECT_ISA_DOES_NOT_MATCH_ANY_CPU in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.365
+!MESSAGE NLS unused message: CCEDebugLauncher.error.PROJECT_ISA_MATCHES_MORE_THAN_ONE_CPU in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.367
+!MESSAGE NLS unused message: CCEDebugLauncher.error.SOURCE_LOOKUP_CANNOT_BE_SET in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.369
+!MESSAGE NLS unused message: CCEDebugLauncher.error.PROJECT_PROPERTY_CANNOT_BE_SET in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.376
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_SESSION_ALREADY_IN_PROGRESS in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.379
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_TARGET_CONNECTION_FAILED in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.381
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_INITIALIZATION_ERROR in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.383
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_TARGET_LOAD_FAILED in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.385
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_MISSING_LICENCE in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.387
+!MESSAGE NLS unused message: CCEDebugLauncher.error.DEBUGGER_INITIALIZATION_ERROR_NO_INFO in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.390
+!MESSAGE NLS unused message: CCEDebugLauncher.error.dirtyFile in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.392
+!MESSAGE NLS unused message: BaseCCEDebugOptionsTab.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.394
+!MESSAGE NLS unused message: CCEDebuggerTab.name in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.397
+!MESSAGE NLS unused message: CCEDebuggerTab.groupCPUResolveOptions in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.399
+!MESSAGE NLS unused message: CCEDebuggerTab.firstCompatible in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.401
+!MESSAGE NLS unused message: CCEDebuggerTab.promptCPU in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.403
+!MESSAGE NLS unused message: CCEDebuggerTab.exact in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.405
+!MESSAGE NLS unused message: CCEDebuggerTab.groupLoadingOptions in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.407
+!MESSAGE NLS unused message: CCEDebuggerTab.loadProgram in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.409
+!MESSAGE NLS unused message: CCEDebuggerTab.loadSymbolsOnly in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.410
+!MESSAGE NLS unused message: CCEDebuggerTab.cpuName in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.413
+!MESSAGE NLS unused message: CCEDebuggerTab.error.cpuNameEmpty in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.415
+!MESSAGE NLS unused message: CCETargetPropertiesTab.name in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.417
+!MESSAGE NLS unused message: CCEMainTab.error.programDoesNotExist in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.419
+!MESSAGE NLS unused message: VariableCellModifier.error.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.421
+!MESSAGE NLS unused message: VariableCellModifier.error.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.424
+!MESSAGE NLS unused message: HeldInResetStatus.bubbleHelp.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.426
+!MESSAGE NLS unused message: HeldInResetStatus.bubbleHelp.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.428
+!MESSAGE NLS unused message: TaskRunStateStatus.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.430
+!MESSAGE NLS unused message: NoPowerStatus.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.433
+!MESSAGE NLS unused message: NoPowerStatus.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.435
+!MESSAGE NLS unused message: LowPowerRunStatus.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.437
+!MESSAGE NLS unused message: LowPowerRunStatus.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.439
+!MESSAGE NLS unused message: HeldInResetStatus.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.442
+!MESSAGE NLS unused message: HeldInResetStatus.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.444
+!MESSAGE NLS unused message: LicenseDialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.447
+!MESSAGE NLS unused message: LicenseDialog.activateLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.449
+!MESSAGE NLS unused message: LicenseDialog.activateEvaluationLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.451
+!MESSAGE NLS unused message: LicenseDialog.generateLicenseStep.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.453
+!MESSAGE NLS unused message: LicenseDialog.generateLicenseStep.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.454
+!MESSAGE NLS unused message: LicenseDialog.registerButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.456
+!MESSAGE NLS unused message: LicenseDialog.registerButton.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.458
+!MESSAGE NLS unused message: LicenseDialog.useFreeLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.459
+!MESSAGE NLS unused message: LicenseDialog.useFreeLicenseButton.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.461
+!MESSAGE NLS unused message: LicenseDialog.extendEvaluationButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.463
+!MESSAGE NLS unused message: LicenseDialog.extendEvaluationButton.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.465
+!MESSAGE NLS unused message: LicenseDialog.installLicenseStep.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.467
+!MESSAGE NLS unused message: LicenseDialog.locationButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.469
+!MESSAGE NLS unused message: LicenseDialog.licenseServerButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.472
+!MESSAGE NLS unused message: LicenseDialog.licenseServerAddressControl.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.474
+!MESSAGE NLS unused message: LicenseDialog.licenseServerPortControl.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.475
+!MESSAGE NLS unused message: LicenseDialog.activateEvaluationLicense.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.477
+!MESSAGE NLS unused message: LicenseDialog.activateFreeicense.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.479
+!MESSAGE NLS unused message: LicenseDialog.activateTIicense.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.481
+!MESSAGE NLS unused message: LicenseDialog.openBrowserErrorBox.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.483
+!MESSAGE NLS unused message: LicenseDialog.openBrowserErrorBox.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.485
+!MESSAGE NLS unused message: LicenseDialog.activateEvaluationLicenseInfoBox.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.487
+!MESSAGE NLS unused message: LicenseDialog.error.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.489
+!MESSAGE NLS unused message: LicenseDialog.activateEvaluationLicenseInfoBox.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.491
+!MESSAGE NLS unused message: LicenseDialog.generateLicenseInfoBox.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.493
+!MESSAGE NLS unused message: LicenseDialog.generateLicenseInfoBox.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.495
+!MESSAGE NLS unused message: LicenseDialog.pathDoesNotExist.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.497
+!MESSAGE NLS unused message: LicenseDialog.pathNotAFile.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.500
+!MESSAGE NLS unused message: LicenseDialog.cannotRead.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.502
+!MESSAGE NLS unused message: LicenseDialog.invalidPortNumber.err in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.504
+!MESSAGE NLS unused message: LicenseDialog.licenseServerSetupFormat in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.507
+!MESSAGE NLS unused message: ContextMenu.lockView.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.509
+!MESSAGE NLS unused message: ContextMenu.configure.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.511
+!MESSAGE NLS unused message: ContextMenu.copyToMemory.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.513
+!MESSAGE NLS unused message: ContextMenu.loadMemory.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.515
+!MESSAGE NLS unused message: ContextMenu.saveMemory.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.517
+!MESSAGE NLS unused message: ContextMenu.fillMemory.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.520
+!MESSAGE NLS unused message: ContextMenu.showCacheColor.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.522
+!MESSAGE NLS unused message: ContextMenu.showCacheLineMarker.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.524
+!MESSAGE NLS unused message: ContextMenu.referenceBuffer.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.526
+!MESSAGE NLS unused message: ContextMenu.configureReferenceBuffer.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.528
+!MESSAGE NLS unused message: ContextMenu.enableReferenceBuffer.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.529
+!MESSAGE NLS unused message: ContextMenu.captureReferenceBuffer.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.531
+!MESSAGE NLS unused message: ContextMenu.useIEEEFloat.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.533
+!MESSAGE NLS unused message: ContextMenu.currentSelction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.535
+!MESSAGE NLS unused message: ContextMenu.visibleCells.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.536
+!MESSAGE NLS unused message: ContextMenu.continuousRefresh.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.538
+!MESSAGE NLS unused message: Contextmenu.showVirtualMemory.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.540
+!MESSAGE NLS unused message: Contextmenu.showPhysicalMemoryView.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.541
+!MESSAGE NLS unused message: Contextmenu.ContinuousRefresh.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.543
+!MESSAGE NLS unused message: Contextmenu.rowSize in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.545
+!MESSAGE NLS unused message: Contextmenu.rowSizeAuto in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.547
+!MESSAGE NLS unused message: Contextmenu.rowSizeCustom in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.549
+!MESSAGE NLS unused message: MemorySaveDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.551
+!MESSAGE NLS unused message: MemoryFillDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.552
+!MESSAGE NLS unused message: MemoryLoadDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.554
+!MESSAGE NLS unused message: MemoryAnalysisDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.556
+!MESSAGE NLS unused message: MemoryAnalysisEnableDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.557
+!MESSAGE NLS unused message: MemoryAnalysisDisableDropDownAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.559
+!MESSAGE NLS unused message: ContinuousRefreshAction.enable.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.561
+!MESSAGE NLS unused message: ContinuousRefreshAction.enable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.563
+!MESSAGE NLS unused message: ContinuousRefreshAction.disable.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.564
+!MESSAGE NLS unused message: ContinuousRefreshAction.disable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.566
+!MESSAGE NLS unused message: ContinuousRefreshAction.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.568
+!MESSAGE NLS unused message: RefreshMemoryActionDelegate.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.570
+!MESSAGE NLS unused message: CacheBoundaryMarker.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.572
+!MESSAGE NLS unused message: CacheBoundaryMarker.action.enable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.573
+!MESSAGE NLS unused message: CacheBoundaryMarker.action.disable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.576
+!MESSAGE NLS unused message: Cache.Highlighting.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.577
+!MESSAGE NLS unused message: Cache.Highlighting.action.enable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.579
+!MESSAGE NLS unused message: Cache.Highlighting.action.disable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.581
+!MESSAGE NLS unused message: MemoryAnalysis.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.583
+!MESSAGE NLS unused message: MemoryAnalysis.action.enable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.585
+!MESSAGE NLS unused message: MemoryAnalysis.action.disable.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.587
+!MESSAGE NLS unused message: LockView.action.lock.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.589
+!MESSAGE NLS unused message: LockView.action.unlock.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.591
+!MESSAGE NLS unused message: LockView.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.593
+!MESSAGE NLS unused message: LoadMemory.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.595
+!MESSAGE NLS unused message: SaveMemory.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.597
+!MESSAGE NLS unused message: FillMemory.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.598
+!MESSAGE NLS unused message: VirtualPhysicalMemory.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.600
+!MESSAGE NLS unused message: VirtualPhysicalMemory.action.virtualMemory.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.602
+!MESSAGE NLS unused message: VirtualPhysicalMemory.action.physicalMemory.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.604
+!MESSAGE NLS unused message: MemoryAnalysisDropDown.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.606
+!MESSAGE NLS unused message: MemorySaveDropDown.action.id in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.608
+!MESSAGE NLS unused message: ColorsAndFontsAction.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.610
+!MESSAGE NLS unused message: CopyToMemory.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.611
+!MESSAGE NLS unused message: CopyToMemory.dialog.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.614
+!MESSAGE NLS unused message: CopyToMemory.dialog.Address in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.616
+!MESSAGE NLS unused message: CopyToMemory.dialog.errorMsg in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.618
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.620
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.622
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.StartAddress in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.624
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.EndAddress in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.626
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.Page in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.628
+!MESSAGE NLS unused message: ConfigureReferenceBuffer.dialog.CaptureDate in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.631
+!MESSAGE NLS unused message: PreferenceDialog.AppearanceLink.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.633
+!MESSAGE NLS unused message: PreferenceDialog.Description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.635
+!MESSAGE NLS unused message: PreferenceDialog.GeneralOptions.group.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.637
+!MESSAGE NLS unused message: PreferenceDialog.CacheHighlighting.group.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.639
+!MESSAGE NLS unused message: PreferenceDialog.CacheBoundaryMarker.group.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.646
+!MESSAGE NLS unused message: PreferenceDialog.MemoryAnalyzer.group.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.649
+!MESSAGE NLS unused message: PreferenceDialog.SymbolDisplay.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.651
+!MESSAGE NLS unused message: PreferenceDialog.MemoryAttributesDisplay.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.653
+!MESSAGE NLS unused message: PreferenceDialog.TrackExpression.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.661
+!MESSAGE NLS unused message: PreferenceDialog.QValue.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.663
+!MESSAGE NLS unused message: PreferenceDialog.BackgroundColorMode.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.665
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarkerMode.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.668
+!MESSAGE NLS unused message: PreferenceDialog.MemEditBufferSave.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.670
+!MESSAGE NLS unused message: PreferenceDialog.MemEditBufferSaveType1.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.672
+!MESSAGE NLS unused message: PreferenceDialog.MemEditBufferSaveType2.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.674
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L1.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.676
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L1P.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.678
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L1D.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.679
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L2.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.686
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L2Shared.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.689
+!MESSAGE NLS unused message: PreferenceDialog.CacheLineMarker.L3.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.695
+!MESSAGE NLS unused message: PreferenceDialog.showCacheHightlightByDefault.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.698
+!MESSAGE NLS unused message: PreferenceDialog.showCacheBoundaryMarkerByDefault.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.700
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzerType1.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.702
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzerType2.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.704
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzerType3.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.706
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzer.enabled.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.708
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzer.disabled.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.710
+!MESSAGE NLS unused message: PreferenceDialog.memoryAnalyzerType4.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.716
+!MESSAGE NLS unused message: PreferenceDialog.showMemoryAnalysisByDefault.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.718
+!MESSAGE NLS unused message: Configure.Dialog.Title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.720
+!MESSAGE NLS unused message: Configure.Dialog.Message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.722
+!MESSAGE NLS unused message: MemoryFill.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.723
+!MESSAGE NLS unused message: MemoryFill.job.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.725
+!MESSAGE NLS unused message: MemoryLoad.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.727
+!MESSAGE NLS unused message: MemoryLoad.memoryDumperFileSelectionPage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.728
+!MESSAGE NLS unused message: MemoryLoad.memoryDumperFileSelectionPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.730
+!MESSAGE NLS unused message: MemoryLoad.memoryBlockInfoPage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.732
+!MESSAGE NLS unused message: MemoryLoad.memoryBlockInfoPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.733
+!MESSAGE NLS unused message: MemoryLoad.job.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.735
+!MESSAGE NLS unused message: MemorySave.dialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.737
+!MESSAGE NLS unused message: MemorySave.memoryDumperFileSelectionPage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.739
+!MESSAGE NLS unused message: MemorySave.memoryDumperFileSelectionPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.741
+!MESSAGE NLS unused message: MemorySave.memoryBlockInfoPage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.743
+!MESSAGE NLS unused message: MemorySave.memoryBlockInfoPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.744
+!MESSAGE NLS unused message: MemorySave.job.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.746
+!MESSAGE NLS unused message: MemoryDumper.dialog.StartAddress in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.748
+!MESSAGE NLS unused message: MemoryDumper.dialog.MemoryPage in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.751
+!MESSAGE NLS unused message: MemoryDumper.dialog.Length in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.753
+!MESSAGE NLS unused message: MemoryDumper.dialog.TypeSize in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.754
+!MESSAGE NLS unused message: MemoryDumper.dialog.FillData in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.756
+!MESSAGE NLS unused message: MemoryDumper.dialog.Swap in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.758
+!MESSAGE NLS unused message: MemoryDumper.dialog.Format in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.760
+!MESSAGE NLS unused message: MemoryDumper.dialog.Target in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.761
+!MESSAGE NLS unused message: PinToContextAction.pin.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.763
+!MESSAGE NLS unused message: PinToContextAction.unpin.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.765
+!MESSAGE NLS unused message: PinToContextAction.defaultDeviceName in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.767
+!MESSAGE NLS unused message: AddressOutOfRangeError.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.769
+!MESSAGE NLS unused message: TargetReadDeniedWhileRunning.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.770
+!MESSAGE NLS unused message: TargetReadNotSupported.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.772
+!MESSAGE NLS unused message: TargetWriteDeniedWhileRunning.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.774
+!MESSAGE NLS unused message: TargetWriteNotSupported.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.776
+!MESSAGE NLS unused message: ReferenceBufferNotAllowed.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.778
+!MESSAGE NLS unused message: DebugSessionNotSupported.message in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.779
+!MESSAGE NLS unused message: view.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.781
+!MESSAGE NLS unused message: view.instance.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.783
+!MESSAGE NLS unused message: LicenseDialog.info.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.785
+!MESSAGE NLS unused message: LicenseDialog.externalMainPage.text1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.787
+!MESSAGE NLS unused message: LicenseDialog.externalMainPage.specifyLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.789
+!MESSAGE NLS unused message: LicenseDialog.externalMainPage.availableOptionButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.791
+!MESSAGE NLS unused message: LicenseDialog.externalMainPage.skipButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.792
+!MESSAGE NLS unused message: LicenseDialog.optionsPage.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.794
+!MESSAGE NLS unused message: LicenseDialog.optionsPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.796
+!MESSAGE NLS unused message: LicenseDialog.optionsPage.text1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.798
+!MESSAGE NLS unused message: LicenseDialog.registerLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.800
+!MESSAGE NLS unused message: LicenseDialog.evaluateLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.801
+!MESSAGE NLS unused message: LicenseDialog.registerPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.803
+!MESSAGE NLS unused message: LicenseDialog.registerPage.activationCodeField.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.805
+!MESSAGE NLS unused message: LicenseDialog.registerPage.activationCodeField.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.807
+!MESSAGE NLS unused message: LicenseDialog.registerPage.hostIdField.label0 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.809
+!MESSAGE NLS unused message: LicenseDialog.registerPage.hostIdField.label0a in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.811
+!MESSAGE NLS unused message: LicenseDialog.registerPage.hostIdField.label1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.813
+!MESSAGE NLS unused message: LicenseDialog.registerPage.hostIdField.label1a in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.815
+!MESSAGE NLS unused message: LicenseDialog.registerPage.otherHostIdField.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.817
+!MESSAGE NLS unused message: LicenseDialog.registerPage.error1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.818
+!MESSAGE NLS unused message: LicenseDialog.registerPage.registerButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.820
+!MESSAGE NLS unused message: LicenseDialog.registerPage.registerButton.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.822
+!MESSAGE NLS unused message: LicenseDialog.registerPage.activationCodeFieldErrorBox.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.824
+!MESSAGE NLS unused message: LicenseDialog.installLicensePage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.826
+!MESSAGE NLS unused message: LicenseDialog.installLicensePage.text1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.828
+!MESSAGE NLS unused message: LicenseDialog.internalMainPage.text1 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.829
+!MESSAGE NLS unused message: LicenseDialog.internalMainPage.generateLicense.info in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.831
+!MESSAGE NLS unused message: LicenseDialog.internalMainPage.generateLicenseButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.833
+!MESSAGE NLS unused message: LicenseDialog.internalMainPage.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.835
+!MESSAGE NLS unused message: LicenseInfoDialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.837
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.838
+!MESSAGE NLS unused message: LicenseInfoDialog.upgradeTab.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.840
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.842
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.status.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.844
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.type.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.845
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.msg.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.847
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.msg.label2 in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.849
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.showButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.851
+!MESSAGE NLS unused message: LicenseInfoDialog.upgradeTab.setup.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.853
+!MESSAGE NLS unused message: LicenseInfoDialog.upgradeTab.upgrade.text in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.854
+!MESSAGE NLS unused message: LicenseInfoDialog.upgradeTab.setupButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.857
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.description in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.859
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.addButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.860
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.removeButton.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.862
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.file.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.864
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.server.label in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.866
+!MESSAGE NLS unused message: LicenseInfoAddLicenseDialog.title in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.868
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.tooltip in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.870
+!MESSAGE NLS unused message: LicenseInfoDialog.manageTab.tableColumnHeader in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-02-28 16:08:08.871
+!MESSAGE NLS unused message: LicenseInfoDialog.statusTab.withinTI in: com.ti.ccstudio.debug.ui.CCSDebugUIMessages

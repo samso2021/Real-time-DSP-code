@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/randGenCTest.obj" "./src/rand.obj" -l"libc.a" "../c5505.cmd" "../lib/myC55xUtil.lib" 

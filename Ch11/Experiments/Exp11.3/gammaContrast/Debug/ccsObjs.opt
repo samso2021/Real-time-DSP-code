@@ -1,0 +1,1 @@
+"./src/tableGen.obj" "./src/imageMapping.obj" "./src/gammaContrastTest.obj" -l"rts55x.lib" "../c5505.cmd" 

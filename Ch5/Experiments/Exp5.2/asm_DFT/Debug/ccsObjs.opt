@@ -1,0 +1,1 @@
+"./src/sine_cos.obj" "./src/mag_128.obj" "./src/dft128.obj" "./src/asm_dft128Test.obj" -l"rts55x.lib" "../c5505.cmd" 

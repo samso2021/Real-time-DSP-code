@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/realtime_hwfftConvTest.obj" "./src/realtime_hwfftConv.obj" "./src/olap_add.obj" "./src/freqflt.obj" -l"libc.a" "../lib/myC55xUtil.lib" "../c5505.cmd" 

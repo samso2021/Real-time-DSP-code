@@ -1,0 +1,1 @@
+"../src/floatPoint_dtx.c" "../src/floatPoint_dtx_mainTest.c" "../src/floatPoint_sid.c" "../src/floatPoint_vad_fft.c" "../src/floatPoint_vad_hwindow.c" "../src/floatPoint_vad_init.c" "../src/floatPoint_vad_ss.c" "../src/floatPoint_vad_vad.c" "../src/g711.c" 

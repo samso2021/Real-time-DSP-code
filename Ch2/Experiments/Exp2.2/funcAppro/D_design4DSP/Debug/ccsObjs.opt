@@ -1,0 +1,1 @@
+"./src/sine_cos.obj" "./src/sineCosineTest.obj" -l"rts55x.lib" "../c5505.cmd" 

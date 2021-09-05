@@ -1,0 +1,1 @@
+"./src/fAecUtil.obj" "./src/fAecTest.obj" "./src/fAecInit.obj" "./src/fAecCalc.obj" -l"rts55x.lib" "../c5505.cmd" 

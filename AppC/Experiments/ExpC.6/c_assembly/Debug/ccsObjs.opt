@@ -1,0 +1,1 @@
+"./src/sort.obj" "./src/findMax.obj" "./src/c_assemblyTest.obj" "./src/arraySort.obj" -l"rts55x.lib" "../c5505.cmd" 

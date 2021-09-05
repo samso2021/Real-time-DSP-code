@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/realtimeEQTest.obj" "./src/equalizer.obj" "./src/asmIIR.obj" -l"libc.a" "../lib/myC55xUtil.lib" "../c5505.cmd" 

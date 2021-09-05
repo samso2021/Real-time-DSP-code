@@ -1,0 +1,1 @@
+"./src/intrinsic_lpc_mainTest.obj" "./src/intrinsic_lpc_lpc.obj" "./src/intrinsic_lpc_hamming.obj" "./src/intrinsic_lpc_hamTable.obj" "./src/intrinsic_lpc_auto.obj" -l"rts55x.lib" "../c5505.cmd" 

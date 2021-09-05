@@ -1,0 +1,1 @@
+The file cn be downloaded at http://www.3gpp.org/ftp/Specs/2011-03/Rel-10/26_series/.

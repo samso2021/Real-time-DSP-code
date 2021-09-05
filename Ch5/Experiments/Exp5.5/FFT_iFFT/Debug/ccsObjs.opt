@@ -1,0 +1,1 @@
+"./src/w_table.obj" "./src/intrinsic_fft.obj" "./src/ibit_rev.obj" "./src/FFT_iFFT_Test.obj" -l"rts55x.lib" "../c5505.cmd" 

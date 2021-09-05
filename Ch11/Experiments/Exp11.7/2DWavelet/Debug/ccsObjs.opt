@@ -1,0 +1,1 @@
+"./src/reconColmn.obj" "./src/recInplcemn.obj" "./src/interColmn.obj" "./src/decomColmn.obj" "./src/decInplcemn.obj" "./src/col2rowmn.obj" "./src/YCbCr2RGB.obj" "./src/RGB2BMPHeader.obj" "./src/2DWaveletTest.obj" "./src/2DWavelet.obj" -l"rts55x.lib" "../c5505.cmd" 

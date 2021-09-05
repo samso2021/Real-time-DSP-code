@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/realtimeFIRTest.obj" "./src/firFilter.obj" "./src/dualMacFir.obj" -l"libc.a" "../lib/myC55xUtil.lib" "../c5505.cmd" 

@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/realtime_g711Test.obj" "./src/realtime_g711.obj" "./src/g711.obj" -l"libc.a" "../lib/myC55xUtil.lib" "../c5505.cmd" 

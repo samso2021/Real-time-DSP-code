@@ -1,0 +1,182 @@
+******************************************************************************
+              TMS320C55x Linker PC v4.3.8                      
+******************************************************************************
+>> Linked Tue Feb 26 16:43:15 2013
+
+OUTPUT FILE NAME:   <overflow.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00040147
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+                        (bytes)   (bytes)    (bytes)   (bytes)
+----------------------  --------  ---------  --------  --------  ----  --------
+  MMR                   00000000   000000c0  00000000  000000c0  RWIX
+  VECS                  000000c0   00000200  00000100  00000100  RWIX
+  DARAM0                000002c0   00003d40  00000300  00003a40  RWIX
+  DARAM1                00004000   00002000  00000000  00002000  RWIX
+  DARAM2                00006000   00002000  00000000  00002000  RWIX
+  DARAM3                00008000   00008000  00000460  00007ba0  RWIX
+  SARAM0                00010000   00010000  00000000  00010000  RWIX
+  SARAM1                00020000   00010000  00000000  00010000  RWIX
+  SARAM2                00030000   00010000  00000000  00010000  RWIX
+  SARAM3                00040000   00010000  00000240  0000fdc0  RWIX
+  CE01                  00100000   00020000  00000000  00020000  RWIX
+  CE02                  00120000   00020000  00000000  00020000  RWIX
+  CE03                  00140000   00020000  00000000  00020000  RWIX
+  CE1                   00400000   00100000  00000000  00100000  RWIX
+  CE2                   00800000   00400000  00000000  00400000  RWIX
+  CE3                   00c00000   003f8000  00000000  003f8000  RWIX
+  PDROM                 00ff8000   00007f00  00000000  00007f00  RWIX
+
+
+SECTION ALLOCATION MAP
+(Addresses surrounded by []'s are displayed for convenience only!)
+
+output                                                          attributes/
+section   page  orgn(bytes) orgn(words) len(bytes) len(words)   input sections
+--------  ----  ----------- ----------- ---------- ----------   --------------
+vectors      0     000000c0  [ 00000060 ] 00000100          *   NOLOAD SECTION
+                   000000c0  [ 00000060 ] 00000100          *   rts55x.lib : vectors.obj (vectors)
+
+.stack       0   [ 000002c0 ]  00000160          *   00000100   UNINITIALIZED
+                 [ 000002c0 ]  00000160          *   00000100   --HOLE--
+
+.data        0   [ 000002c0 ]  00000160          *   00000000   UNINITIALIZED
+
+.sysstack 
+*            0   [ 000004c0 ]  00000260          *   00000080   UNINITIALIZED
+                 [ 000004c0 ]  00000260          *   00000080   --HOLE--
+
+.bss         0   [ 00008000 ]  00004000          *   00000230   UNINITIALIZED
+                 [ 00008000 ]  00004000          *   00000200   ovf_sat.obj (.bss)
+                 [ 00008400 ]  00004200          *   00000028   overflowTest.obj (.bss)
+                 [ 00008450 ]  00004228          *   00000004   rts55x.lib : _lock.obj (.bss)
+                 [ 00008458 ]  0000422c          *   00000004              : exit.obj (.bss)
+
+.text        0     00040000  [ 00020000 ] 000001c0          *   
+                   00040000  [ 00020000 ] 00000071          *   ovf_sat.obj (.text)
+                   00040071  [ 00020038+] 0000004d          *   rts55x.lib : autoinit.obj (.text)
+                   000400be  [ 0002005f ] 0000004b          *              : args_main.obj (.text)
+                   00040109  [ 00020084+] 0000003e          *              : exit.obj (.text)
+                   00040147  [ 000200a3+] 00000034          *              : boot.obj (.text)
+                   0004017b  [ 000200bd+] 00000029          *   overflowTest.obj (.text)
+                   000401a4  [ 000200d2 ] 00000012          *   rts55x.lib : _lock.obj (.text)
+                   000401b6  [ 000200db ] 00000007          *              : exit.obj (.text:CIO_breakpoint)
+                   000401bd  [ 000200de+] 00000002          *              : vectors.obj (.text)
+                   000401bf  [ 000200df ] 00000001          *   --HOLE-- [fill = 20]
+
+.cinit       0   [ 000401c0 ]  000200e0          *   00000040   
+                 [ 000401c0 ]  000200e0          *   0000002b   overflowTest.obj (.cinit)
+                 [ 00040216 ]  0002010b          *   0000000a   rts55x.lib : _lock.obj (.cinit)
+                 [ 0004022a ]  00020115          *   0000000a              : exit.obj (.cinit)
+                 [ 0004023e ]  0002011f          *   00000001   --HOLE-- [fill = 0]
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+abs. value/
+byte addr   word addr   name
+---------   ---------   ----
+00000002                $TI_capability$C5500$CallingConvention
+00000002                $TI_capability$C5500$MemoryModel
+00000001                $TI_capability_requires_rev3
+            00004000    .bss
+            00000160    .data
+00040000                .text
+000401b7                C$$EXIT
+000000c0                _Reset
+            00000260    __STACK_END
+00000200                __STACK_SIZE
+00000100                __SYSSTACK_SIZE
+ffffffff                ___binit__
+            00004000    ___bss__
+ffffffff                ___c_args__
+            000200e0    ___cinit__
+            00000160    ___data__
+            00000160    ___edata__
+            00004230    ___end__
+000401c0                ___etext__
+ffffffff                ___pinit__
+00040000                ___text__
+000400be                __args_main
+            0000422c    __cleanup_ptr
+            0000422e    __dtors_ptr
+            00004228    __lock
+000401b4                __nop
+000401ac                __register_lock
+000401a4                __register_unlock
+            00000160    __stack
+            00000260    __sysstack
+            0000422a    __unlock
+000401b6                _abort
+00040071                _auto_init
+            00004000    _buff
+            00004100    _buff1
+00040147                _c_int00
+00040109                _exit
+0004017b                _main
+00040000                _ovftest
+            00004200    _sineTable
+ffffffff                binit
+            000200e0    cinit
+            00000160    edata
+            00004230    end
+000401c0                etext
+ffffffff                pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+abs. value/
+byte addr   word addr   name
+---------   ---------   ----
+00000001                $TI_capability_requires_rev3
+00000002                $TI_capability$C5500$CallingConvention
+00000002                $TI_capability$C5500$MemoryModel
+000000c0                _Reset
+00000100                __SYSSTACK_SIZE
+00000200                __STACK_SIZE
+            00000160    .data
+            00000160    ___data__
+            00000160    ___edata__
+            00000160    __stack
+            00000160    edata
+            00000260    __STACK_END
+            00000260    __sysstack
+            00004000    .bss
+            00004000    ___bss__
+            00004000    _buff
+            00004100    _buff1
+            00004200    _sineTable
+            00004228    __lock
+            0000422a    __unlock
+            0000422c    __cleanup_ptr
+            0000422e    __dtors_ptr
+            00004230    ___end__
+            00004230    end
+00040000                .text
+00040000                ___text__
+00040000                _ovftest
+00040071                _auto_init
+000400be                __args_main
+00040109                _exit
+00040147                _c_int00
+0004017b                _main
+000401a4                __register_unlock
+000401ac                __register_lock
+000401b4                __nop
+000401b6                _abort
+000401b7                C$$EXIT
+            000200e0    ___cinit__
+000401c0                ___etext__
+            000200e0    cinit
+000401c0                etext
+ffffffff                ___binit__
+ffffffff                ___c_args__
+ffffffff                ___pinit__
+ffffffff                binit
+ffffffff                pinit
+
+[46 symbols]

@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/tone.obj" "./src/signalGenTest.obj" "./src/rand.obj" "./src/cos.obj" -l"libc.a" "../c5505.cmd" "../lib/myC55xUtil.lib" 

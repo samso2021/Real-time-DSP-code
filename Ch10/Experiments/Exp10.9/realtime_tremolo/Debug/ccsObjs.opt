@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/realtime_tremoloTest.obj" "./src/realtime_tremolo.obj" -l"libc.a" "../lib/myC55xUtil.lib" "../c5505.cmd" 

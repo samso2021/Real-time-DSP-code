@@ -1,0 +1,1 @@
+"../src/intrinsic_lpc_auto.c" "../src/intrinsic_lpc_hamTable.c" "../src/intrinsic_lpc_hamming.c" "../src/intrinsic_lpc_lpc.c" "../src/intrinsic_lpc_mainTest.c" 

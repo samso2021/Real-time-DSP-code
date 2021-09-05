@@ -1,0 +1,1 @@
+"./src/dctTest.obj" "./src/YCbCr2RGB.obj" "./src/RGB2BMPHeader.obj" "./src/IDCT.obj" "./src/DCTcoefGen.obj" "./src/DCT.obj" -l"rts55x.lib" "../c5505.cmd" 

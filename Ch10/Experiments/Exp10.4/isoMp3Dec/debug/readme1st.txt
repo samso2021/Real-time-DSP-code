@@ -1,0 +1,1 @@
+This folder is used to hold the MP3 decoder executable program, lsfDec.exe.

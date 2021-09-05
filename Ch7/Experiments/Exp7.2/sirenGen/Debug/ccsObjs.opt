@@ -1,0 +1,1 @@
+"./src/sirenGenTest.obj" "./src/siren.obj" "./src/initAIC3204.obj" -l"rts55x.lib" "../lib/C55xx_csl.lib" "../lib/USBSTK_bsl.lib" "../c5505.cmd" 

@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/i2s_register.obj" "./src/i2s.obj" "./src/dma.obj" "./src/audioLoopbackTest.obj" "./src/audio.obj" "./src/AIC3204_init.obj" -l"libc.a" "../c5505.cmd" 

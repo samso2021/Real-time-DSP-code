@@ -1,0 +1,1 @@
+"./src/appC_examplesTest.obj" "./src/Examples.obj" -l"rts55x.lib" "../c5505.cmd" 

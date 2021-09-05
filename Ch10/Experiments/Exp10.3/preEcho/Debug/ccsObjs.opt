@@ -1,0 +1,1 @@
+"./src/floatPoint_preEchoTest.obj" "./src/floatPoint_preEchoQnt.obj" "./src/floatPoint_preEchoMdct.obj" "./src/floatPoint_preEchoInit.obj" -l"rts55x.lib" "../c5505.cmd" 

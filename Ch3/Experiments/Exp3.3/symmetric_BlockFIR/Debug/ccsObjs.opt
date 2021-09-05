@@ -1,0 +1,1 @@
+"./src/symFirTest.obj" "./src/symFir.obj" -l"rts55x.lib" "../c5505.cmd" 

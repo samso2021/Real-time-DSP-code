@@ -1,0 +1,1 @@
+"./src/floatPoint_nr_vad.obj" "./src/floatPoint_nr_ss.obj" "./src/floatPoint_nr_proc.obj" "./src/floatPoint_nr_init.obj" "./src/floatPoint_nr_hwindow.obj" "./src/floatPoint_nr_fft.obj" "./src/floatPoint_aec_util.obj" "./src/floatPoint_aec_init.obj" "./src/floatPoint_aec_calc.obj" "./src/floatPoint_aecNr_mainTest.obj" -l"libc.a" "../c5505.cmd" 

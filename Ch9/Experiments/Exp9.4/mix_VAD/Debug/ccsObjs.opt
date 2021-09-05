@@ -1,0 +1,1 @@
+"./src/mixed_vad_wtable.obj" "./src/mixed_vad_vad.obj" "./src/mixed_vad_tableGen.obj" "./src/mixed_vad_ss.obj" "./src/mixed_vad_init.obj" "./src/mix_VAD_mainTest.obj" "./src/intrinsic_fft.obj" "./src/ibit_rev.obj" "./src/dspFunc55.obj" -l"rts55x.lib" "../c5505.cmd" 

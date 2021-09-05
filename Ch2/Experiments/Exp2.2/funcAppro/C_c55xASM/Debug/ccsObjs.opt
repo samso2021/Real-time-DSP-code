@@ -1,0 +1,1 @@
+"./src/cos.obj" "./src/c55xxASMTest.obj" -l"rts55x.lib" "../c5505.cmd" 

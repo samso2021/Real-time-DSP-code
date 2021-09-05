@@ -1,0 +1,1 @@
+"./src/spatialTest.obj" "./src/spatialSound.obj" -l"rts55x.lib" "../c5505.cmd" 

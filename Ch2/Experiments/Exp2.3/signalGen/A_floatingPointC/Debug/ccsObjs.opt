@@ -1,0 +1,1 @@
+"./src/vector.obj" "./src/randNoise.obj" "./src/ftone.obj" "./src/floatingPointTest.obj" -l"libc.a" "../lib/myC55xUtil.lib" "../c5505.cmd" 
