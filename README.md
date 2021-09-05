@@ -1,7 +1,8 @@
 # Real-time-DSP-code
 Real time digital signal processing example code
 
-These are the example code from a book. Here is the link for the book.
+These are the example code from a book "Real-Time Digital Signal Processing: Fundamentals, Implementations and Applications, 3rd Edition". 
+Here is the link for the book.
 
 https://www.wiley.com/en-ao/Real+Time+Digital+Signal+Processing%3A+Fundamentals%2C+Implementations+and+Applications%2C+3rd+Edition-p-9781118414323
 
